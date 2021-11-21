@@ -5,7 +5,9 @@
 # Links to the files
 
 - [GitHub Repository](https://github.com/laeuler/readme-generator)
-- [Pull Request](https://laeuler.github.io/Homework06WeatherDashboard)
+- [Video Demo](https://drive.google.com/file/d/1s9CufHB6dx6xDq1hta9iJV_49yiRD2md/view?usp=sharing)
+  Note: the video shows at the end, that the respective links in the table of contents aren't working. According to my search results, this is a VS Code problem.
+  After pushing it to GitHub, it worked.
 
 # Description
 
