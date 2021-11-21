@@ -66,38 +66,6 @@ const content = [
 
 //code to trigger the content creation process
 
-// const inquirerAsync = async (content) => {
-//   try {
-//     //prompt the questions to get answers
-//     const answers = await inquirer.prompt(content);
-
-//     //write answers to JSON file
-//     return answers;
-//   } catch (error) {
-//     console.log(`Error: ${error.message}`);
-//     process.exit(0);
-//   }
-// };
-
-// const writeToFile = (path, data, options = "utf8") => {
-//   try {
-//     fs.writeFileSync(path, data, options);
-//     console.log(`Successfully written to ${path}`);
-//   } catch (error) {
-//     console.log(`Failed to write to ${path}:${error.message}`);
-//   }
-// };
-
-// const start = async () => {
-//   //get answers
-//   const answers = await inquirerAsync(content);
-//   //write answers to file
-//   writeToFile(`${data.title}.md`, answers);
-// };
-
-// //call the function
-// start();
-
 //this will prompt the user with the questions, collect the answers and generates the .md file with the answers collected
 const init = async () => {
   try {
