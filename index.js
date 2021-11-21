@@ -1,5 +1,7 @@
 //insert, connect required modules
+//for terminal dialogue
 const inquirer = require("inquirer");
+//for write to file
 const fs = require("fs");
 
 //create array of questions to determine content of the README
@@ -73,12 +75,21 @@ const inquirerAsync = async (content) => {
   }
 };
 
-const start = () => {
-  //get answers
-  const answers = inquirerAsync(content);
-  console.log(answers);
+const writeToFile = (path, data, options = "utf8") => {
+  try {
+    fs.writeFileSync(path, data, options);
+    console.log(`Successfully written to ${path}`);
+  } catch (error) {
+    console.log(`Failed to write to ${path}:${error.message}`);
+  }
+};
 
+const start = async () => {
+  //get answers
+  const answers = await inquirerAsync(content);
+  console.log(answers);
   //write answers to file
+  writeToFile("answers.json", JSON.stringify(answers));
 };
 
 //call the function
