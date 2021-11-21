@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/laeuler/readme-generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.0",
+    "util": "^0.12.4"
   }
 }
