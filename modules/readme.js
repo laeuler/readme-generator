@@ -14,14 +14,28 @@ const createReadme = (data) => {
     license,
   } = data;
 
-//Markdown from here
-return `# ${title}
+  //Markdown from here
+  return `# ${title}
 
 ## Description
 ${description}
 
-## Installation Instuctions
-${instructions}`;
+## Table of Content
+
+## Installation
+${instructions}
+
+## Usage
+
+## License
+
+## Contributing
+
+## Tests
+
+## Questions
+
+`;
 };
 
 //Export the createReadme function to index.js
