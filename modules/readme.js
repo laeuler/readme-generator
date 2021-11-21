@@ -16,13 +16,14 @@ const createReadme = (data) => {
 
   //Markdown from here
   return `
- 
-# ${title}
-
-## Description
+  
+  # ${title}
+  [![License: ${license}](https://img.shields.io/badge/License-${license}-green.svg)](https://opensource.org/licenses/${license})
+  
+# Description
 ${description}
 
-## Table of Content
+# Table of Content
 - [Description](#Description)
 - [Usage](#Usage)
 - [Installation](#Installation)
@@ -30,30 +31,35 @@ ${description}
 - [Contributors](#Contributors)
 - [Tests](#Tests)
 - [Questions](#Questions)
+- [Screenshots](#Screenshots)
 
-## Installation
+
+# Installation
 \`\`\`${instructions}\`\`\`
 
-## Usage
+# Usage
 ${usage}
 
-## License
+# License
 ${license}
 
-## Contributing
+
+# Contributing
 Please reach out to ${githubname} for further information on how to contribute to this project.
 
 Contributors so far:
 ${contributors}
 
-## Tests
+# Tests
 ${test}
 
 
-## Questions
+# Questions
 In case of questions, please contact the creator via
-- GitHub: ${githubname}
+- GitHub Profile: https://github.com/${githubname}
 - Mail: ${usermail} (please use the following subject: ${title}, I will follow up as soon as possible)
+
+# Screenshots
 `;
 };
 
