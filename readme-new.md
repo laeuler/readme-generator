@@ -4,7 +4,7 @@
 
 # Description
 
-Automatic README creation through terminal dialogue
+Automatic README file creation through terminal dialogue
 
 # Table of Content
 
@@ -19,11 +19,11 @@ Automatic README creation through terminal dialogue
 
 # Installation
 
-`npm install`
+`type npm install after cloning the repo and navigating to the respective folder`
 
 # Usage
 
-navigate to the folder and type npm run start
+to invoke the application type npm run start
 
 # License
 
@@ -34,7 +34,7 @@ MIT
 Please reach out to laeuler for further information on how to contribute to this project.
 
 Contributors so far:
-as of now nobody
+nobody as of now
 
 # Tests
 
@@ -45,6 +45,6 @@ not applicable at the moment
 In case of questions, please contact the creator via
 
 - GitHub Profile: https://github.com/laeuler
-- Mail: larseuler@gmail.com (please use the following subject: readme-generator, I will follow up as soon as possible)
+- Mail: eulerlars@gmail.com (please use the following subject: readme-generator, I will follow up as soon as possible)
 
 # Screenshots
