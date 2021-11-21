@@ -4,7 +4,8 @@
   "description": "dialogue in the terminal that results in quick and convenient generation of a professional README for a new project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
