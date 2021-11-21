@@ -1,5 +1,6 @@
 //insert, connect required modules
 const inquirer = require("inquirer");
+const fs = require("fs");
 
 //create array of questions to determine content of the README
 const content = [
@@ -64,13 +65,21 @@ const inquirerAsync = async (content) => {
     //prompt the questions to get answers
     const answers = await inquirer.prompt(content);
 
-    //log answers
-    console.log(answers);
+    //write answers to JSON file
+    return answers;
   } catch (error) {
     console.log(`Error: ${error.message}`);
     process.exit(0);
   }
 };
 
+const start = () => {
+  //get answers
+  const answers = inquirerAsync(content);
+  console.log(answers);
+
+  //write answers to file
+};
+
 //call the function
-inquirerAsync(content);
+start();
