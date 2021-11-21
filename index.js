@@ -3,6 +3,8 @@
 const inquirer = require("inquirer");
 //for write to file
 const fs = require("fs");
+//Exported modules
+const createReadme = require("./modules/readme.js");
 
 //create array of questions to determine content of the README
 const content = [
